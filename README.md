@@ -4,7 +4,12 @@
 
 
 
-# Example Tablist
+### Tablist Example
+
+```java
+
+public class TablistProvider implements LayoutProvider {
+
     @Override
     public TabLayout provide(Player player) {
         TabLayout entries = TabLayout.create(player);
@@ -13,5 +18,20 @@
 
         return entries;
     }
+}
 
+```
+
+### Tablist onEnable
+
+```java
+
+public void onEnable() {
+
+// Adapter implement
+TabManager.setLayoutProvider(new TablistProvider());
+
+}
+
+```
 
