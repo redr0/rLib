@@ -5,8 +5,6 @@
 
 
 # Example Tablist
-public class TablistProvider implements LayoutProvider {
-
     @Override
     public TabLayout provide(Player player) {
         TabLayout entries = TabLayout.create(player);
@@ -15,5 +13,5 @@ public class TablistProvider implements LayoutProvider {
 
         return entries;
     }
-}
+
 
