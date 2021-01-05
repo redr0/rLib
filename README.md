@@ -2,7 +2,9 @@
  ⚖️ This is a fork of qLib with small fixes for better performance
 
 
-// Example Tablist
+
+
+# Example Tablist
 public class TablistProvider implements LayoutProvider {
 
     @Override
@@ -14,4 +16,4 @@ public class TablistProvider implements LayoutProvider {
         return entries;
     }
 }
-// 
+
