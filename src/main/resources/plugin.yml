@@ -1,0 +1,5 @@
+name: rLib
+version: ${project.version}
+main: us.rojo.rlib.RLib
+api-version: 1.16
+authors: [ R0JO ]
