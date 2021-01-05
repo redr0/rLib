@@ -1,6 +1,5 @@
 # rLib
  ⚖️ This is a fork of qLib with small fixes for better performance
-     It depends on Protocollib and the spigot used is the mSpigot
 
 
 
@@ -35,3 +34,4 @@ TabManager.setLayoutProvider(new TablistProvider());
 
 ```
 
+It depends on Protocollib and the spigot used is the mSpigot
