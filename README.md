@@ -74,4 +74,4 @@ public class ServerScoreboardConfiguration {
 ScoreboardManager.setLayoutProvider(new ScoreboardLayoutProvider());
 
 ```
-It depends on Protocollib and the spigot used is the mSpigot
+It depends on ProtocolLib and the spigot used is the mSpigot
